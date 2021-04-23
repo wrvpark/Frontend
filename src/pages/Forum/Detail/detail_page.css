@@ -1,0 +1,48 @@
+/* CSS FOR SALE & RENT, FORUM, LOST & FOUND, SERVICES
+I KNOW ITS HORRIBLE CSS SORRY. TEEHEE =) */
+
+/* BUT ALSO CONTAINS FOR THIS SPECIFIC CATEGORY */
+
+.responses_post {
+    background-color: #F0F2F5;
+}
+
+.comments-header-inline {
+    clear: both;
+    width: 100%;
+    display:flex; 
+    flex-direction:row;
+}
+
+.comments-right {
+    position:absolute; 
+    right: 5%;
+    /* background-color: black; */
+
+}
+
+.forum_reply_button {
+    background-color: #309C9C;
+    padding: 5px;
+    border-radius: 0.25rem;
+    /* position:relative; 
+    left: 5%; */
+}
+
+.forum_creator_box {
+    position:absolute; 
+    padding-bottom: 25px;
+}
+
+.reply_button_content {
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.replyBtn {
+    /* padding-bottom: 20px; */
+}
+
+.r3_description_content {
+    line-height: 20pt;
+}

@@ -1,0 +1,31 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 100%;
+    background-color: #F0F2F5;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.ant-layout-sider {
+    background: #ffffff;
+    /* margin-right: 10px; */
+}
+
+.section_title {
+    display: inline-block;
+    width: 50%;
+}
+
+.sec_event_side_menu {
+    display: inline-block;
+    width: 50%;
+}
+
+.ant-layout-sider-trigger {
+    display: none;
+}

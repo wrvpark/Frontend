@@ -1,0 +1,180 @@
+
+/* CSS FOR EVENT CALENDAR COMPONENT */
+
+
+.modal-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/* creating a container for time and frequency */
+
+.det_inline_block_shedule {
+    padding: 10px 0px 10px;
+}
+
+.det_con_det_time {
+    display: inline-block;
+    width: 50%;
+
+}
+
+.det_con_frequency {
+    display: inline-block;
+    width: 50%;
+
+padding-right: 150px;
+}
+
+.det_frequency {
+    padding-right: 2px;
+    text-align: right;
+    vertical-align: center;
+}
+
+
+
+.det_con_category {
+    display: inline-block;
+    width: 50%;
+}
+
+.det_con_location {
+    display: inline-block;
+    width: 50%;
+}
+
+
+
+
+
+
+
+.det_sec_end {
+    position: relative;
+    top: 8px;
+    padding: 10px 0px 0px;
+}
+
+.det_con_qFile {
+    display: inline-block;
+    width: 50%;
+}
+
+.det_con_posted {
+    display: inline-block;
+     text-align: right;
+    width: 50%;
+}
+
+.det_posted {
+ font-size: 13px;
+}
+
+
+.btn-secondary {
+    background-color: black;
+}
+
+
+.det_done_button {
+    background-color: black;
+}
+
+.btn {
+    background-color: #ffffff;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.898);
+  display: block;
+  font-weight: 600;
+  border-radius: 0;
+  border: none;
+  height: 70px;
+  padding: 0;
+  text-align: left;
+  font-size: 25px;
+  line-height: 70px;
+  vertical-align: middle;
+}
+
+
+.det_done_button {
+    background-color: #E5E4DC;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.det_done_button:hover {
+    background-color: #F7D426;
+}
+
+.ant-card-head-title {
+    z-index: 1;
+}
+
+.search {
+    /* background-color: black; */
+}
+
+.search_title {
+    font-size: 45px !important;
+}
+
+.ant-input {
+    /* background-color: black;  */
+}
+
+/* .ant-card-body {
+    padding-top: 5px;
+}
+
+.ant-pagination {
+    width: 100%;
+    text-align: center;
+} */
+
+.ant-card-head-title {
+     /* background-color: black; */
+}
+
+.search_title {
+    font-size: 45px;
+}
+
+
+
+/* Button on modal */
+
+.event_update_button {
+    background: #309C9C !important;
+    border: #309C9C !important;
+}
+
+
+.event_delete_button {
+    background: #309C9C !important;
+    border: #309C9C !important;
+    /* width: 100% ;
+    text-align: center ; */
+}
+
+.event_update_button_header {
+    font-size: 22px;
+    width: 100% ;
+    text-align: center ;
+}
+
+
+
+.event_font_size {
+    font-size: 20px;
+}
+
+.event_secondary_font_size {
+    font-size: 18px;
+}
+
+.event_creator_font_size {
+    font-size: 14px;
+}

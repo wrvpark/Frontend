@@ -1,0 +1,131 @@
+
+/* CSS FOR SALE & RENT, FORUM, LOST & FOUND, SERVICES
+I KNOW ITS HORRIBLE CSS SORRY. TEEHEE =) */
+
+/* CSS file for the ShowSlides */
+
+.slide-container {
+    width: 100%;
+    
+    margin: auto; }
+  
+  h3 {
+    text-align: center; }
+  
+  .each-slide > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 300px;
+    height: 600px;
+  }
+  
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  
+  .each-fade {
+    display: flex;
+  }
+  
+  .each-fade .image-container {
+    width: 75%;
+    overflow: hidden;
+  }
+  
+  .each-fade .image-container img {
+    width: 100%;
+  }
+  
+  .each-fade h2 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: #adceed;
+  }
+
+.indicator {
+    padding: 0;
+}
+
+.form-row {
+  width: 100%;
+}
+
+.form-group {
+  width: 100%;
+}
+
+
+.date_format {
+  font-size: 15px;
+  position: absolute;
+  right: 0px;
+  
+}
+
+.price_box {
+  position: relative;
+  left: -8px;
+}
+
+.first_row {
+  padding-top: 3px;
+  padding-bottom: -40px;
+}
+
+
+.second_row {
+
+}
+
+.category_section {
+  position: absolute;
+  right: 0px;
+}
+
+.right {
+  padding-left: 3rem;
+}
+
+.left {
+  padding-right: 1rem;
+  
+}
+
+.r3_description_title {
+  /* padding: 5px; */
+}
+
+.r3_description_content {
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.third_row {
+  margin-top: -15;
+}
+
+.creator_box {
+  position: absolute;
+  left: 16px;
+  top: -5px;
+  margin-bottom: 10px;
+}
+
+.lost_found_description_box {
+  position: relative;
+  top: 0px;
+  left: 10px;
+  /* padding: 100px 20px 50px 0px; */
+}
+
+.ant-card-body {
+  padding-bottom: 150px;
+}

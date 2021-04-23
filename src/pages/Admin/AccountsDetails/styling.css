@@ -1,0 +1,44 @@
+.backToHome {
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 2%;
+    text-decoration: none;
+}
+
+.backToHome:hover {
+    text-decoration: none;
+    color: #309c9c;
+}
+
+
+.currPage {
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 2%;
+    text-decoration: none;
+}
+
+.currPage:hover {
+    text-decoration: none;
+    color: #309c9c;
+}
+
+.second_row {
+    margin-bottom: 30px;
+}
+
+.third_row {
+    margin-left: -15px;
+}
+
+.checkBtn {
+    margin-left: 0px !important;
+}
+
+.viewInfoBtn {
+    margin: auto !important;
+}

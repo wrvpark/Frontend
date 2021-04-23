@@ -1,0 +1,405 @@
+
+
+/* GENERAL CSS FOR EVENT SECTION */
+
+body {
+  width: auto;
+  padding: 15px 30px 15px;
+}
+
+.event_title {
+  font-size: 3em;
+  padding: 0;
+}
+
+/* CALENDAR  */
+
+/* DIV CONTAINING CALENDAR */
+.calendar {
+  border-radius: 10px;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  margin-right: 8%;
+}
+
+/* HEADER COLUMNS*/
+.fc-col-header-cell {
+  background-color: #309c9c;
+}
+
+/* TITLE FOR WEEK DAYS */
+.fc-col-header-cell-cushion {
+  margin: 8px;
+  color: white;
+  font-size: 155%;
+}
+
+/* ALL DATES */
+.fc-daygrid-day-number {
+  color: #309c9c;
+  font-size: 125%;
+}
+
+/* EVENT */
+.fc-daygrid-event {
+  background-color: #309c9c;
+  border-bottom-color: black;
+  border: none;
+}
+
+/* TEXT INSIDE EVENT BOX */
+.fc-event-main i {
+  padding: 2%;
+  color: black;
+}
+
+/* SIDE MENU */
+
+.side_menu {
+  position: absolute;
+}
+
+/* Position and sizing of burger button */
+
+.bm-burger-button {
+  padding: 1%;
+  position: fixed;
+
+  width: 2em;
+  height: 1.5em;
+  right: 32px;
+  top: 33px;
+}
+
+/* Color/shape of burger icon bars */
+
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+
+.bm-menu {
+  background: #309c9c;
+  padding: 0;
+  font-size: 1.15em;
+  border-radius: 5px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 3px;
+}
+
+/* Individual item */
+
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  position: relative;
+  border-radius: 10px;
+}
+
+.react-burger-cross-btn {
+  background-color: black;
+}
+
+.events_display {
+  border-radius: 5px;
+  background-color: #fcfced;
+  margin-top: 5%;
+  margin-right: 5%;
+  position: absolute;
+  padding: 5px;
+  width: 90%;
+  height: 75%;
+}
+
+.side_menu_interaction {
+  border-radius: 5px;
+  background-color: #fcfced;
+  padding: 3%;
+  width: 101%;
+  height: 75%;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input {
+  border-radius: 25px;
+  border: 0.01em solid black;
+  outline: none;
+}
+
+input:active {
+  background-color: #309c9c;
+  color: white;
+}
+
+.link {
+  padding: 5px;
+  background-color: #309c9c;
+  color: rgb(255, 255, 255);
+  border: 0.01em solid black;
+  outline: none;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.link:hover {
+  background-color: #f7d426;
+
+  color: white;
+  text-decoration: none;
+}
+
+.add_event {
+  margin: 5px;
+}
+
+.event_action_options {
+  margin: 5px;
+}
+
+.side_menu {
+  position: fixed;
+}
+
+ul {
+  list-style: none;
+}
+
+.event_list_selected {
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px;
+  position: relative;
+  width: 250px;
+  right: 40px;
+  background-color: #e5e4dc;
+}
+
+.events_titles {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+}
+
+li:focus {
+  background-color: #f7d426;
+  list-style: none;
+}
+
+.calendar_page {
+  margin-left: 60px;
+  padding-left: 40px;
+  background-color: #F0F2F5;
+}
+
+@media screen and (max-width: 650px) {
+  .calendar_page {
+    margin-left: 5px;
+  }
+}
+
+.ant-card {
+  height: 100%;
+}
+
+.ant-card-head-title {
+  /* z-index: ; */
+  padding: none;
+  margin: 5px 0;
+}
+
+.ant-card-head {
+  z-index: 1;
+}
+
+.ant-card-body {
+  z-index: -1;
+}
+
+
+/* .ant-input-wrapper {
+  background-color: black; 
+} */
+/* 
+b {
+  font-size: 40px;
+} */
+
+/* Event creation */
+
+.event_title {
+    font-size: 3.0em;
+    padding: 0;
+    padding-bottom: 25px;
+}
+
+.event_search_input {
+    padding-bottom: 20px;
+}
+
+.ant-card-head-title {
+    overflow: visible !important;
+}
+.addBtn {
+  border-radius: 10px;
+  line-height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #309c9c;
+  color: #fcfced;
+  text-align: center;
+  position: fixed;
+  right: 100px;
+  top: 30px;
+}
+
+.addBtn:hover {
+  background-color: #198a8a;
+  color: #fcfced;
+}
+
+.addBtn:active {
+  background-color: #198a8a !important;
+  color: #fcfced;
+}
+.addBtn:focus {
+  background-color: #198a8a !important;
+  color: #fcfced;
+}
+
+
+
+.event_creation_link {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #309C9C;
+  color: white;
+  
+  
+
+}
+.event_title {
+  font-size: 3.0em;
+  padding: 0;
+  padding-bottom: 25px;
+}
+
+.event_search_input {
+  padding-bottom: 20px;
+}
+
+.ant-card-head-title {
+  overflow: visible !important;
+}
+
+
+.drop_down_desc {
+  margin-top: 15px;
+  
+}
+
+.drop_down_loc {
+  margin-top: -12px;
+} 
+
+.event_create_post_button {
+  background: #309C9C;
+  border: #309C9C;
+  margin-left: 75%;
+  position: relative;
+  vertical-align: middle;
+}
+
+.event_create_post_button:hover {
+  background: #F7D426;
+  border-color: #F7D426;
+}
+
+.fc-event-main {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.calendar_event_title {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+}
+
+.calendar_event_title:hover {
+ 
+  color:#309c9c;
+}
+
+.fc-daygrid-event:hover {
+  background: #f7d426;
+}
+
+.fc-daygrid-event-harness {
+  right: 0 !important;
+  /* background: #309c9c; */
+}
+
+
+.fc-toolbar-title {
+  font-size: large;
+  font-weight: 600;
+}

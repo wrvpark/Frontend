@@ -1,0 +1,84 @@
+.btn {
+  background-color: #ffffff;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.898);
+  display: flex !important;
+  font-weight: 600 !important;
+  border-radius: 0;
+  border: none;
+  height: 55px !important;
+  padding: 0;
+  text-align: left !important;
+  font-size: 17px !important;
+  line-height: 55px !important;
+  align-items: center !important;
+}
+
+.btn.active {
+  background-color: #309C9C;
+  color: #ffffff;
+  transition: none;
+}
+
+.btn.active:hover {
+  background-color: #309C9C;
+  color: #ffffff;
+  transition: none;
+}
+
+.navLogo {
+  height: 35px;
+  fill: #309C9C;
+}
+
+.btn.active .navLogo{
+  background-color: #309C9C;
+  color: #ffffff;
+  fill: #ffffff;
+}
+
+.btn:hover {
+  background-color: #309c9c51;
+}
+
+
+.btn-primary {
+  background: #309C9C !important;
+  border: #309C9C !important;
+  width: 100%;
+  text-align: center  !important;
+  margin: 0px 100px 10px 100px !important;
+}
+
+.btn-primary:hover {
+  background: #F7D426 !important;
+  border-color: #F7D426 !important;
+
+}
+
+.login_button {
+  font-size: 22px;
+  width: 100%;
+  text-align: center  !important;
+}
+
+/* .login_button {
+
+} */
+
+.access_links {
+  color: #309C9C !important;
+}
+
+.button {
+    text-align: center  !important;
+}
+
+.error {
+  color: red;
+    text-align: left  !important;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}

@@ -1,0 +1,71 @@
+
+/* CSS FOR SALE & RENT, FORUM, LOST & FOUND, SERVICES
+I KNOW ITS HORRIBLE CSS SORRY. TEEHEE =) */
+
+.form-control {
+    margin-top: -10px;
+}
+
+.drop-box {
+    margin-top: -10px;
+}
+
+.error_message {
+    size: 35px;
+    font-size: 20px;
+    margin-top: -15px;
+    color: red;
+    top: -15px;
+    position: relative;
+}
+
+.confirmBtn {
+    
+    background: #309C9C;
+    border-color: #309C9C;
+    width: 100%;
+    text-align: center  !important;
+    margin: 30px 250px 0px 250px;
+}
+
+.confirmBtn_header {
+    font-size: 22px;
+    width: 100%;
+    text-align: center  !important;
+}
+
+.confirmBtn:hover {
+    background: #F7D426;
+    border-color: #F7D426;
+
+}
+
+.confirmBtn:focus {
+    background: #309C9C;
+    border-color: #309C9C;
+}
+
+.createBtn {
+    background: #309C9C;
+    border-color: #309C9C;
+    width: 100%;
+    text-align: center  !important;
+    margin: 0px 100px 0px 100px;
+}
+
+.createBtn_header {
+    font-size: 22px;
+    width: 100%;
+    text-align: center  !important;
+}
+
+.createBtn:hover {
+    background: #F7D426;
+    border-color: #F7D426;
+}
+
+.confirmBtn:focus {
+    background: #309C9C;
+    border-color: #309C9C;
+}
+

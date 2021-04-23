@@ -1,0 +1,56 @@
+
+/* CSS FOR HOME PAGE */
+
+.content {
+    padding-bottom: 2%;
+    margin-left: 5% !important;
+}
+
+.react-slideshow-wrapper {
+    border-radius: 5px;
+}
+
+
+.content {
+
+    margin-left: 5px;
+}
+
+.react-slideshow-container {
+    margin-left: 5px;
+    
+}
+
+.react-slideshow-container+ul.indicators {
+    margin-left: 5px;
+}
+@media screen and (max-width: 750px) {
+   
+  }
+
+h1 {
+    font-size: 40px;
+
+}
+
+p {
+    font-size: 20px;
+    padding: 1%;
+    padding-left: 0%;
+}
+
+.about_us_title {
+    padding: 1%;
+    font-size: 40px;
+    padding-left: 0%;
+}
+
+.contact_us_title  {
+    padding: 1%;
+    
+    padding-left: 0%;
+}
+
+.contact_info {
+    font-size: 20px;
+}

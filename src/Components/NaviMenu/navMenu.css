@@ -1,0 +1,84 @@
+.sideMenu {
+  width: 220px !important;
+  background: #fff !important;
+  margin-top: 60px;
+  z-index: 1039 !important;
+  transition: all 0.2s ease .0s !important;
+  min-height: 675px;
+}
+
+.bm-menu {
+  background: #fff !important;
+}
+
+/* .navMenuCross {
+  display: none;
+} */
+
+
+.navMenuButton{
+  top: 20px !important;
+  left: 20px !important;
+  display: block;
+  position: fixed !important;
+  z-index: 1;
+}
+
+/* 
+.navMenuOverlay {
+  background: none !important;
+} */
+
+.ant-layout-sider {
+  background: none;
+}
+
+
+.sideMenu[aria-hidden="true"] {
+  transform: translate3d(0%, 0px, 0px) !important;
+  width: 60px !important;
+  /* margin-left: 5px; */
+}
+
+.sideMenu[aria-hidden="true"] [class^='sideMenu_profile__'] {
+  transform: translate3d(3px, -60px, 0px) ;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.sideMenu[aria-hidden="true"] [class^='sideMenu_profile__'] h4 {
+  display: none;
+}
+
+.sideMenu[aria-hidden="true"] .btn{
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sideMenu[aria-hidden="true"] .btn span{
+  display: none
+}
+
+.sideMenu[aria-hidden="true"] [class^='sideMenu_logo__'] {
+  height: 40px;
+  width: 60px;
+}
+
+.sideMenu[aria-hidden="true"] .logInRegister a,
+.sideMenu[aria-hidden="true"] .logInRegister h3 {
+  display: none;
+}
+
+.sideMenu[aria-hidden="true"] .logInRegister [class^='sideMenu_profile__']{
+  display: block;
+}
+
+.sideMenu[aria-hidden="true"] .logInRegister [class^='sideMenu_profile__icon__']:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,130 @@
+/* CSS for the side menu*/
+
+
+.logo {
+  display: block;
+  height: 150px;
+  width: 225px;
+  background-image: url("./ICONS/Wendys-RV-Park_logo.svg");
+  background-size: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+/* .logo h2 {
+  padding-top: 25%;
+  text-align: center;
+} */
+
+.profile {
+  display: block;
+  padding-right: 10px;
+  background-color: #309c9c;
+  height: 65px;
+  width: 220px;
+  text-align: center;
+  line-height: 65px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.profileDisplay {
+  display: block;
+  padding-right: 10px;
+  background-color: #309c9c;
+  height: 65px;
+  width: 250px;
+  text-align: center;
+  line-height: 65px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.profileName:hover,
+.goBack:hover {
+  cursor: pointer;
+}
+
+.profileName {
+  margin-right: 25px !important;
+}
+
+
+.profile h3 {
+  color: #fff;
+  line-height: 1.4;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.profile h4 {
+  color: #fff;
+  line-height: 1.4;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding-left: 10px;
+  /* padding-right: 10px; */
+  font-size: 26px;
+}
+
+.profile a {
+  color: #fff;
+  line-height: 1.4;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: underline;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.btnGroup {
+  width: 250px;
+}
+
+.btn:hover {
+  background-color: #198a8a;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.btn:hover .navLogo {
+  background-color: #309c9c;
+  color: #ffffff;
+  fill: #ffffff;
+  transition-delay: 90ms;
+}
+
+.btn:active .navLogo {
+  background-color: #309c9c;
+  color: #ffffff;
+  fill: #ffffff;
+  transition-delay: 90ms;
+}
+
+.error {
+  color: red !important;
+}
+
+.button {
+  background-color: #309c9c !important;
+  text-align: center !important;
+}
+
+.profile_icon {
+  height: 34px;
+  width: 34px;
+}
+
+.three_dots {
+  width: 55px;
+}
+
+.three_dots:hover {
+  cursor: pointer;
+}

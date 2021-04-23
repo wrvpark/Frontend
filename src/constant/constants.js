@@ -1,0 +1,1 @@
+export const BASE_FILE = "http://wrvpark.com:8080/api/v1/files";

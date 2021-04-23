@@ -1,0 +1,32 @@
+.checkBtn {
+    position:absolute;
+    /* padding: 10px; */
+}
+
+.action_box {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+}
+
+.detail_checkBtn {}
+
+
+.add_button {
+    background: #309C9C !important;
+    border-color: #309C9C !important;
+}
+
+.add_button:hover {
+    background: #F7D426 !important;
+    border-color: #F7D426 !important;
+}
+
+.ant_table_cell {
+    padding: 150px;
+}
+
+.cell_font-size {
+    font-size: 20px;
+}

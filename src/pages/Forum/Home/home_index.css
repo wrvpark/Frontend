@@ -1,0 +1,74 @@
+
+/* CSS FOR SALE & RENT, FORUM, LOST & FOUND, SERVICES
+I KNOW ITS HORRIBLE CSS SORRY. TEEHEE =) */
+
+.forum_items {
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 98%;
+    height: 100%;
+}
+
+.forum_posts {
+    background-color: black;
+}
+
+.created_time {
+    width: 100%;
+    text-align: right;
+    
+}
+
+.ant-list-item {
+    margin: 10px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.ant-space {
+    border-radius: 3px;
+    background-color: #F0F2F5;
+    padding: 10px;
+}
+
+.ant-space:hover {
+    background-color: #309C9C;
+}
+
+.forum_search_feature {
+    margin-top: 20px;
+    position: relative;
+}
+
+.forum_create_post_button {
+    background: #309C9C;
+    border: #309C9C;
+    position: relative;
+    margin-left: 5%;
+}
+
+.forum_create_post_button:hover {
+    background: #F7D426;
+    border-color: #F7D426;
+}
+
+.forum_search_box {
+    width: 35%;
+    margin-right: 20px;
+}
+
+.forum_date_picker {
+    width: 200; 
+    margin-left: 20;
+}
+
+
+.loading_wheel {
+    margin: 100px 200px 200px 100px;
+}
+
+.plus_button {
+    margin-bottom: 15px;
+}

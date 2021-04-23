@@ -1,0 +1,68 @@
+{
+  "name": "wendy-rv-park-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@bit/nexxtway.react-rainbow.date-picker": "^1.10.0",
+    "@fullcalendar/core": "^5.5.1",
+    "@fullcalendar/daygrid": "^5.5.0",
+    "@fullcalendar/interaction": "^5.5.0",
+    "@fullcalendar/list": "^5.5.0",
+    "@fullcalendar/react": "^5.5.0",
+    "@fullcalendar/timegrid": "^5.5.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.3",
+    "@testing-library/user-event": "^12.6.2",
+    "antd": "^4.10.3",
+    "axios": "^0.21.1",
+    "babel-plugin-import": "^1.13.3",
+    "bootstrap": "^4.6.0",
+    "customize-cra": "^1.0.0",
+    "emailjs-com": "^2.6.4",
+    "i": "^0.3.6",
+    "jwt-decode": "^3.1.2",
+    "less": "^4.1.0",
+    "less-loader": "^5.0.0",
+    "moment": "^2.29.1",
+    "npm": "^7.6.0",
+    "react": "^17.0.1",
+    "react-app-rewired": "^2.1.8",
+    "react-bootstrap": "^1.4.3",
+    "react-bootstrap-date-picker": "^5.1.0",
+    "react-burger-menu": "^3.0.3",
+    "react-datepicker": "^3.5.0",
+    "react-dom": "^17.0.1",
+    "react-moment": "^1.1.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-select": "^4.1.0",
+    "react-simple-timefield": "^3.2.3",
+    "react-slideshow-image": "^3.4.3",
+    "react-tabs": "^3.2.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+
+/* Upload icon placement */
+.ant-upload-drag-icon {
+    width: 100%;
+    text-align: center;
+}
+
+/* General upload component */
+.ant-upload {
+    margin-top: 10px;
+    border-radius: 15px;
+    padding: 15px;
+    background: #F0F2F5;
+}
+
+/* Upload file text */
+.upload_text {
+    width: 100%;
+    text-align: center;
+}
